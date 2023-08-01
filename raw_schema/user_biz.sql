@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS user_biz;
-CREATE TABLE user_biz (
+DROP TABLE IF EXISTS raw.user_biz;
+CREATE TABLE raw.user_biz (
     user_id varchar,
     name varchar,
     review_count varchar,

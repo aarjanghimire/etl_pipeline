@@ -1,4 +1,4 @@
-INSERT INTO fact.fact_review (
+INSERT INTO std.fact_review (
   review_id,
   business_id,
   user_id,
@@ -17,5 +17,5 @@ SELECT
   funny::int,
   cool::int,
   date::timestamp
-FROM review
-WHERE user_id IN (SELECT user_id FROM fact.dim_user);
+FROM raw.review
+WHERE user_id IN (SELECT user_id FROM std.dim_user);

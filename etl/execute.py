@@ -9,7 +9,7 @@ def execute_sql_files(cursor, sql_file_path):
         # Execute the SQL query
         cursor.execute(sql_query)
 
-        print(f"Table created using {sql_file_path}.")
+        print(f"Query Executed Using {sql_file_path}.")
 
     except Exception as error:
         print(f"Error while executing {sql_file_path}:", error)

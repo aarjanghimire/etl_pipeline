@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS tip;
-CREATE TABLE tip (
+DROP TABLE IF EXISTS raw.tip;
+CREATE TABLE raw.tip (
     user_id VARCHAR,
     business_id VARCHAR,
     text VARCHAR,

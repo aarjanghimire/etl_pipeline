@@ -1,4 +1,4 @@
-INSERT INTO fact.dim_business(
+INSERT INTO std.dim_business(
 	business_id ,
 	business_name ,
 	address ,
@@ -16,4 +16,4 @@ SELECT
 	state,
 	review_count::integer,
 	stars:: float
-from business;
+from raw.business;

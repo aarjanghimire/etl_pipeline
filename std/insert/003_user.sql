@@ -1,4 +1,4 @@
-INSERT INTO fact.dim_user(
+INSERT INTO std.dim_user(
 	user_id ,
 	username ,
 	yelping_since ,
@@ -10,4 +10,4 @@ SELECT
 	yelping_since::timestamp,
 	review_count::int,
 	average_stars::float
-FROM user_biz;
+FROM raw.user_biz;

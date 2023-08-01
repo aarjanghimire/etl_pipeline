@@ -1,5 +1,6 @@
-DROP TABLE fact.dim_business CASCADE;
-CREATE TABLE fact.dim_business(
+DROP TABLE if exists std.dim_business CASCADE;
+
+CREATE TABLE std.dim_business(
 	business_id varchar primary key,
 	business_name varchar,
 	address varchar,

@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS business;
-CREATE TABLE business (
+DROP TABLE IF EXISTS raw.business;
+CREATE TABLE raw.business (
     name VARCHAR,
     city VARCHAR,
     address VARCHAR,

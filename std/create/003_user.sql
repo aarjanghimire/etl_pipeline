@@ -1,5 +1,5 @@
-DROP TABLE fact.dim_user CASCADE;
-CREATE table fact.dim_user(
+DROP TABLE IF EXISTS std.dim_user CASCADE;
+CREATE table std.dim_user(
 	user_id varchar primary key,
 	username varchar,
 	yelping_since timestamp,
